@@ -111,7 +111,7 @@ Un Switch es una manera avanzada de hacer un else if con un else al final en la 
     default: sería el caso equivalente al else final de un else if
 
 switch(elemento){
-    // if(elemento === dato1){
+    // if(elemento === dato1){ // es similar pero distinto
     //     // código 1
     // }
     case dato1:

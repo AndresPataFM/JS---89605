@@ -17,6 +17,7 @@ false //falso
     objetos complejos menos document.all (los arrays son objetos)
     Infinity
     "0" es truthy 
+    " " es truthy 
 */
 
 // 🔶 Falsey 🔶
