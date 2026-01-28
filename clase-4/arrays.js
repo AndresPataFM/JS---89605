@@ -92,7 +92,7 @@ console.log(testing0)
 // El parámetro es el elemento a agregar
 
 // 🔹 💥Unshift✅ 🔹
-// Agrega un elemento al principio del array
+// Agrega un elemento al principio del array. El parámetro es el elemento a agregar.
 
 testing1.unshift("🧡")
 console.log(testing0)
@@ -202,6 +202,7 @@ console.log("splice", testing10)
 
 const testing11 = ["💙", "💜", "💚"]
 console.log(testing11.at(-1))
+console.log(testing11.at(-2))
 
 // 🔸 💖Concat✅ 🔸
 // combina el array inicial con el pasado por parametro, retornando el array resultante.
