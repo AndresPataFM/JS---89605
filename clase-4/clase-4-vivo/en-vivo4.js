@@ -30,7 +30,7 @@ const nombres = ["Andrés", "Nahuel", "Augusto"]
 // nombres[1] = "Daiana"
 
 // console.table(nombres)
-
+// console.log(recorrerNombres())
 function recorrerNombres(){
   let queryNombres = "Los nombres son:"
   for(let i=0;i<nombres.length;i++ ){
