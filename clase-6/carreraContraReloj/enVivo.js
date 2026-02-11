@@ -26,20 +26,22 @@ Lista:
 ("Krusty Vegan", 125.00, ['Espinaca', 'Soja'], 8)
 */
 
+const hamburguesas = []
+
 class Hamburguesa{
   constructor(nombre, precio, ingredientes, nroCombo){
-    this.nombre = nombre;
-    this.precio = parseFloat(precio.toFixed(2));
+    this.nombre = nombre
+    this.precio = Math.round(precio*100+Number.EPSILON)/100
     this.ingredientes = ingredientes
-    this.nroCombo = parseInt(nroCombo)
+    this.nroCombo = nroCombo
   }
 }
-
-const hamburguesas = []
 
 function agregarHamburguesa(nombre, precio, ingredientes, nroCombo){
   hamburguesas.push(new Hamburguesa(nombre, precio, ingredientes, nroCombo))
 }
+
+
 
 agregarHamburguesa("Krusty Burger", 150.00, ['Carne', 'Queso'], 1)
 agregarHamburguesa("Krusty Burger Doble", 225.00, ['Carne', 'Queso', 'Panceta'], 2)

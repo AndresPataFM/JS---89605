@@ -28,7 +28,7 @@ const test = ["💙", "💜", "💚"]
 // "A cada"
 // 🔹 Recorre el array y ejecuta una función por cada elemento.
 // 🔹 NO TIENE RETURN
-// 🔹 No modifica array original
+// 🔹 No modifica array original (al menos que uno lo obligue)
 
 /* 
 const array = [0,1,2,3,3,4]
@@ -126,7 +126,7 @@ console.log(array.map((elemento)=>{
 }))
 */
 
-// 🔶 ✅➗(o string) reduce() 💖🔢(o string)) 🔶
+// 🔶 ✅➗(o string) reduce(funcion, valorInicial) 💖🔢(o string)) 🔶
 // "Reducir"
 // 🔹 permite obtener un único valor después de iterar sobre un array
 // 🔹 parametros de la función parámetro:
