@@ -17,6 +17,12 @@ Preguntas guía
 
 */
 
+
+
+
+
+
+
 const frutas = ["manzana", "ananá", "pera", "frutilla"]
 function cargarDOM() {
   const titulo = document.querySelector("#titulo")

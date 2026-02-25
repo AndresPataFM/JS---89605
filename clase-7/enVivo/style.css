@@ -6,6 +6,12 @@
     background-color: green;
 }
 
+.borde{
+    border-color: brown;
+    border-width: 3px;
+    border-style: solid;
+}
+
 .ejemplo{
     background-color: blueviolet;
     width: 200px;

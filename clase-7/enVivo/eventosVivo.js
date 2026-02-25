@@ -14,16 +14,27 @@ const respuesta = document.getElementById("respuesta")
 })  */
 
 
-keylogger.addEventListener("keydown", (evento)=>{
+/* keylogger.addEventListener("keydown", (evento)=>{
   console.log(keylogger.value)
-  console.log(evento.key)
+  // console.log(evento.key)
   // if(isNaN(parseInt(evento.key))){
   //   evento.preventDefault()
   // }
+}) */
+
+formulario.addEventListener("submit",(e)=>{
+  e.preventDefault()
+  console.log(e)
+  console.log(e.target[0])
+  console.log(e.target[0].value)
+  mensaje.innerText = e.target[0].value
+  e.target[0].value=""
+  // console.log(keylogger.value)
+  // keylogger.value=""
 })
 
-
-formulario.addEventListener("submit", (e)=>{
+// 
+/* formulario.addEventListener("submit", (e)=>{
   e.preventDefault()
 
   console.log(e.target[0].value)
@@ -33,7 +44,7 @@ formulario.addEventListener("submit", (e)=>{
 
 
   keylogger.value=""
-})
+}) */
 
 
 
