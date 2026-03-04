@@ -255,9 +255,9 @@ async function deleteData(url = "", id) {
     return response.json(); // parsea json
 }
 // El id Cambia
-deleteData(mockapiURL, 2).then((data) => {
-    console.log(data);
-}); 
+// deleteData(mockapiURL, 2).then((data) => {
+//     console.log(data);
+// }); 
 
 
 
